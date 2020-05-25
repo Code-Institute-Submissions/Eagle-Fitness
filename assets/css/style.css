@@ -34,6 +34,10 @@
     font-size: 18px;
 }
 
+.fa-bars {
+    font-size: 30px;
+}
+
 /*---------Callout------*/
 
 .jumbotron h1 {
@@ -70,7 +74,7 @@
 /*---------Why Us------*/
 
 .feature {
-    height: 500px;
+    height: 550px;
     background-color: #F2F2F2;
 }
 
@@ -87,5 +91,21 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #A61C41;
-    margin-top: 20px;    
+    margin-top: 25px;
+    font-size: 35px;      
+}
+
+/*---------Facilities------*/
+
+.facility {
+    text-align: center;
+}
+.facility-header {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.facility-icon {
+    font-size: 45px;
+    margin: 15px;
 }
