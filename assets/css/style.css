@@ -75,5 +75,17 @@
 }
 
 .blockquote {
-    padding: 30px;
+    padding: 20px;
+    padding-top: 10px;
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+}
+
+.feature-header {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #A61C41;
+    margin-top: 20px;    
 }
