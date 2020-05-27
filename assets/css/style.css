@@ -123,3 +123,24 @@
 .info-title {
     margin: 15px;
 }
+
+/*---------footer------*/
+
+footer {
+    background-color: #1B2A59;
+    height: 170px;
+    margin: 0;
+}
+
+.footer-title {
+    color: white;
+    margin-top: 10px;
+}
+
+.footer-info {
+    color: white;
+}
+
+.footer-section {
+    padding: 10px;
+}
