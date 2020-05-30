@@ -147,3 +147,50 @@
 footer i {
     color: white;
 }
+
+/*---------membership------*/
+
+.membership-type {
+    margin-bottom: 10px;
+}
+
+.membership-title {
+    background-color: #1B2A59;
+
+}
+
+.membership-header {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.membership-feature {
+    height: 300px;
+    background-color: #F2F2F2;
+}
+
+.membership-price {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.membership-length {
+    margin-bottom: 0;
+    color: white;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.membership-list {
+    padding-top: 25px;
+}
