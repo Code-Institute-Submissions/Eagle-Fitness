@@ -111,7 +111,18 @@
     margin: 15px;
 }
 
-/*---------find us?------*/
+/*---------Reviews------*/
+
+.review-icon {
+    font-size: 35px;
+}
+
+.review-divider {
+    background-color: #A61C41;
+    height: 3px;
+}
+
+/*---------Find us?------*/
 
 .eagle-address {
     text-align: center;
@@ -125,7 +136,7 @@
     margin: 15px;
 }
 
-/*---------footer------*/
+/*---------Footer------*/
 
 .footer-container {
     background-color: #1B2A59;
@@ -149,7 +160,7 @@ footer i {
     color: white;
 }
 
-/*---------membership------*/
+/*---------Membership------*/
 
 .membership-type {
     margin-bottom: 10px;
@@ -196,7 +207,7 @@ footer i {
     padding-top: 25px;
 }
 
-/*---------classes------*/
+/*---------Classes------*/
 
 .class-icon {
 
