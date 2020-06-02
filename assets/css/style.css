@@ -14,6 +14,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #A61C41;
+    font-size: 45px;
 }
 
 /*---------Navbar------*/
@@ -59,8 +60,9 @@
 }
 
 .callout {
-    background: url("https://images.unsplash.com/photo-1520948013839-62020f374478?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat center center;
+    background: url("https://images.unsplash.com/photo-1520948013839-62020f374478?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat center center fixed;
     height: 600px;
+    display: flex;
 }
 
 .jumbotron {
@@ -68,7 +70,6 @@
     margin-top: 70px;
     height: 400px;
     width: 350px;
-    position: relative;
 }
 
 /*---------Why Us------*/
@@ -224,4 +225,8 @@ th {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 20px;
+}
+
+.class-rules {
+    letter-spacing: 4px;
 }
