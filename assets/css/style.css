@@ -17,6 +17,11 @@
     font-size: 45px;
 }
 
+.title-divider {
+    background-color: #A61C41;
+    height: 3px;
+}
+
 /*---------Navbar------*/
 
 .navbar-brand {
@@ -91,7 +96,7 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #A61C41;
+    color: #1B2A59;
     margin-top: 25px;
     font-size: 35px;      
 }
@@ -115,11 +120,6 @@
 
 .review-icon {
     font-size: 35px;
-}
-
-.review-divider {
-    background-color: #A61C41;
-    height: 3px;
 }
 
 .review-name {
