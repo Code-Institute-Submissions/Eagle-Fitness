@@ -122,6 +122,11 @@
     height: 3px;
 }
 
+.review-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 /*---------Find us?------*/
 
 .eagle-address {
