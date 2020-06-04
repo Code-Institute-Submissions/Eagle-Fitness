@@ -141,6 +141,10 @@
     margin: 15px;
 }
 
+.list-unstyled li {
+    margin: 3px;
+}
+
 /*---------Footer------*/
 
 .footer-container {
@@ -152,7 +156,7 @@
     font-family: 'Teko', sans-serif;
     letter-spacing: 4px;
     text-transform: uppercase;
-    padding-top: 5px;
+    padding-top: 10px;
     color: white;
     font-size: 25px;
 }
