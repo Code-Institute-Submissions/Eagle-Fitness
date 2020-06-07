@@ -22,6 +22,12 @@
     height: 3px;
 }
 
+
+.btn-danger {
+    background-color: #A61C41;
+    border-color: #A61C41;
+}
+
 /*---------Navbar------*/
 
 .navbar-brand {
@@ -57,11 +63,6 @@
 .jumbotron p {
     padding-top: 3px;
     font-size: 18px;
-}
-
-.btn-danger {
-    background-color: #A61C41;
-    border-color: #A61C41;
 }
 
 .callout {
