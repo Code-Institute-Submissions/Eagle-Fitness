@@ -164,13 +164,20 @@
 
 .footer-info {
     color: white;
+    font-size: 15px;
 }
 
 footer i {
     color: white;
+    font-size: 25px;
+    margin: 10px;
 }
 
 /*---------Membership------*/
+
+.membership-page {
+    min-height: 80vh;
+}
 
 .membership-type {
     margin-bottom: 10px;
@@ -219,14 +226,9 @@ footer i {
 
 /*---------Classes------*/
 
-.class-icon {
-
+.class-page {
+    min-height: 80vh;
 }
-
-.class-header {
-
-}
-
 .thead {
     background-color: #1B2A59;
     border-color: #1B2A59;
@@ -250,4 +252,16 @@ th {
 
 .class-rules {
     letter-spacing: 4px;
+}
+
+/*---------Gallery------*/
+
+.gallery-page {
+    min-height: 80vh;
+}
+
+/*---------Contact Page------*/
+
+.contact-page {
+    min-height: 80vh;
 }

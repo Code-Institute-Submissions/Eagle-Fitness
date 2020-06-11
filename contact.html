@@ -29,84 +29,101 @@
         </div>
     </nav>
 
-    <article class="contact-page">
-      <!--Contact-->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="section-header">Contact Us</h1>
+    <main class="container contact-page">
+     <!--Contact-->
+        <section class="contact-section">
+            <h1 class="section-header">Contact Us</h1>       
+            <form>
+                <div class="row">
+                    <div class="col mb-3">
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col mb-3">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>    
                 </div>
-            </div>
-            <section class="contact-section">
+                <div class="row">
+                    <div class="col mb-3">
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                    <div class="col mb-3">
+                        <input type="text" class="form-control" placeholder="Contact Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="enquiry-title" for="enquiry">Please select from the following</label>
+                    <select class="form-control" id="enquiry">
+                        <option>Membership</option>
+                        <option>Classes</option>
+                        <option>Personal Trainer</option>
+                        <option>Facilities</option>                             <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                     <textarea class="form-control" id="text-area" rows="5" placeholder="Please type your enquiry here..."></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-danger btn-lg mt-3 mb-3 hvr-shrink">Send</button>
+                </div>
+            </form>
+            <h1 class="section-header">Where to find us?</h1>
             <div class="row">
-                <div class="col-12">        
-                    <form>
-                        <div class="row">
-                            <div class="col mb-3">
-                                <input type="text" class="form-control" placeholder="First name" required>
-                            </div>
-                            <div class="col mb-3">
-                                <input type="text" class="form-control" placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col mb-3">
-                                <input type="email" class="form-control" placeholder="Email Address" required>
-                            </div>
-                            <div class="col mb-3">
-                                <input type="text" class="form-control" placeholder="Contact Number">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="enquiry-title" for="enquiry">Please select from the following</label>
-                            <select class="form-control" id="enquiry">
-                                <option>Membership</option>
-                                <option>Classes</option>
-                                <option>Personal Trainer</option>
-                                <option>Facilities</option>
-                                <option>Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="text-area" rows="5" placeholder="Please type your enquiry here..."></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-danger btn-lg mt-3 mb-3 hvr-shrink">Send</button>
-                        </div>
-                    </form>
-                </div>    
-            </div>
-            </section>
-        </div>
-
-     <!--Footer-->
-        <footer class="container-fluid footer-container mt-5">
-            <div class="row">
-                <div class="col-sm-8 footer-section">
-                    <h5 class="footer-title">Eagle Fitness</h5>
+                <div class="embed-responsive embed-responsive-16by9 col-sm-6 mb-3">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.4728997343827!2d-0.2907445846895069!3d51.55956371470955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487613d47f1b1eb3%3A0xc674d60f48da5832!2s39%20Park%20Chase%2C%20Wembley%20HA9%208EQ!5e0!3m2!1sen!2suk!4v1590609327555!5m2!1sen!2suk" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="col-sm-3 eagle-address mb-3">
+                    <h4 class="info-title">Eagle Fitness</h4>
                     <ul class="list-unstyled">
-                        <li class="footer-info">Adress: 39 Park Chase, Wembley, HA98EQ</li>
-                        <li class="footer-info">Email: info@eagle-fitness.com
-                        </li>
-                        <li class="footer-info">Tel: 02087955268</li>
+                        <li>39 Park Chase</li>
+                        <li>Wembley</li>
+                        <li>HA9 8EQ</li>
+                        <li><strong>Tel:</strong> 02087955268</li>
+                        <li><strong>Email:</strong> info@eagle-fitness.com</li>
                     </ul>
                 </div>
-                <div class="col-sm-4 footer-section">
-                    <h5 class="footer-title">Social</h5>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a class="hvr-shrink" target="_blank" href="https://en-gb.facebook.com/"><i class="fab fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item"><a class="hvr-shrink"  target="_blank" href="https://twitter.com/Princenavein"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item"><a class="hvr-shrink"  target="_blank" href="https://www.instagram.com/stories/gypsyking101/"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li class="list-inline-item"><a class="hvr-shrink"  target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                        </li>
+                <div class="col-sm-3 eagle-opening mb-3">
+                    <h4 class="info-title">Opening Times</h4>
+                    <ul class="list-unstyled">
+                        <li>Monday: 8AM - 10PM</li>
+                        <li>Tuesday: 8AM - 10PM</li>
+                        <li>Wednesday: 8AM - 10PM</li>
+                        <li>Thursday: 8AM - 10PM</li>
+                        <li>Friday: 8AM - 10PM</li>
+                        <li>Saturday: 6AM - 6PM</li>
+                        <li>Sunday: CLOSED</li>
                     </ul>
                 </div>
+            </div>       
+        </section>
+    </main> 
+
+    <!--Footer-->
+    <footer class="container-fluid footer-container mt-5">
+        <div class="row">
+            <div class="col-sm-8 footer-section">
+                <h5 class="footer-title">Eagle Fitness</h5>
+                <ul class="list-unstyled">
+                    <li class="footer-info">Adress: 39 Park Chase, Wembley HA98EQ</li>
+                    <li class="footer-info">Email: info@eagle-fitness.com</li>
+                    <li class="footer-info">Tel: 02087955268</li>
+                </ul>
             </div>
-        </footer>
-    </article>
+            <div class="col-sm-4 footer-section">
+                <h5 class="footer-title">Social</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="hvr-shrink" target="_blank" href="https://en-gb.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="hvr-shrink"  target="_blank" href="https://twitter.com/Princenavein"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="hvr-shrink"  target="_blank" href="https://www.instagram.com/stories/gypsyking101/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="hvr-shrink"  target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
