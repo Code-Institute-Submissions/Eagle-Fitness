@@ -54,6 +54,14 @@ The gallery page isn’t included in the common paths for the website but is sti
 
 ### Manual logical tests 
 
+### Summary:
+The manual logical testing consisted of opening each page on different devices to ensure the content was displayed correctly. Clicking on each link in the navigation bar was also tested to ensure they work and direct the user to the correct page. Any buttons on each page was tested to verify they work and direct to the correct page. Social media links in the footer for each page was tested to confirm they direct the user to the correct platform. Please see below for breakdown on each individual page. 
+
+### Further testing:
+-  Asked friends and family to test website on their own devices and report any errors. 
+-  I viewed my website on several devices to check for any errors.
+-  I viewed website on Safari, Firefox and Chrome to check for any errors.
+
 #### Home Page 
 
  Navigation bar;
@@ -172,8 +180,4 @@ Footer section;
 2. Change display from desktop to mobile and ensure content is being displayed correctly.
 3. Click on each social media link in the footer to ensure it’s directed to the correct page. 
 
-### Further testing:
--  Asked friends and family to test website on their own devices and report any errors. 
--  I viewed my website on several devices to check for any errors.
--  I viewed website on Safari, Firefox and Chrome to check for any errors.
 
