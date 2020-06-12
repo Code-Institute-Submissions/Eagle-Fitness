@@ -2,6 +2,8 @@
 
 A clear and structured website for a local gym in Wembley, called Eagle Fitness. The website provides useful information about the gym to new and existing members. The primary goal of the website is to showcase the great features at the gym and provide sufficient information to attract new and existing members down to the gym.  
 
+[Eagle Fitness](https://r-prince.github.io/Eagle-Fitness/)
+
 ## UX
 
 ### Client
