@@ -135,11 +135,11 @@ This project was developed using Gitpod then committed and pushed to Github.
 
 The project is open source and was deployed using the following steps: 
 
-1. Once on the GitHub repository [Eagle Fitness repository](https://github.com/R-Prince/MS1-EF).
+1. Once on the GitHub repository [Eagle Fitness repository](https://github.com/R-Prince/Eagle-Fitness).
 2. Select "Settings" which is located towards the top of the page. 
 3. Scroll down to the "Source" section within the "GitHub pages" section.
 4. From the dropdown menu select "master-branch" and click save. 
-5. The site is now published and can be found using the link supplied in the Github pages section [Eagle Fitness](https://r-prince.github.io/MS1-EF/).
+5. The site is now published and can be found using the link supplied in the Github pages section [Eagle Fitness](https://r-prince.github.io/Eagle-Fitness/).
 
 There is no difference between the the deployed version and the development version.
 
@@ -147,7 +147,7 @@ There is no difference between the the deployed version and the development vers
 
 To clone this project from Github:
 
-1. Follow this link to the [Eagle Fitness repository](https://github.com/R-Prince/MS1-EF).
+1. Follow this link to the [Eagle Fitness repository](https://github.com/R-Prince/Eagle-Fitness).
 2. Select the green button which has the options to "clone or download"
 3. Copy the "Clone with HTTPS" link
 4. Switch the current working directory to the location where you want to clone the repository
